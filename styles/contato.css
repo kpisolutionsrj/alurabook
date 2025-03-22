@@ -34,3 +34,41 @@
     background: url(/assets/Email.svg) no-repeat;
     padding-left: 2em;
 }
+
+@media screen and (min-width:1024px) {
+    .contato{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2em 9em;
+    }
+    .contato__email{
+        width: 40%;
+    }
+    .contato__descricao{
+        margin-right: 1em;
+    }
+    .contato__titulo{
+        font-size: 24px;
+        width: 70%;
+        margin-bottom: 1em;
+    }
+    .contato__texto{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width:1728px) {
+    .contato__email{
+        width: 20%;
+    }
+    .contato__descricao{
+        width: max-content;
+    }
+    .contato__texto{
+        width: 80%;
+    }
+    .contato__titulo{
+        width: auto;
+    }
+}
