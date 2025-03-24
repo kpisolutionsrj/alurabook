@@ -48,4 +48,8 @@ hr{
         padding-right: 15em;
         padding-left: 15em;
     }
+    .rodape__secao{
+        border-left: 1px solid var(--cinza);
+        padding-left: 1em;
+    }
 }

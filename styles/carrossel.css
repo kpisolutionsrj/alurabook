@@ -104,7 +104,21 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 2em;
-        margin: 1em 10em 5em 10em;
+        margin: 0 20vw 3em 20vw;
+    } 
+    .swiper-pagination{
+        margin: 1em 0;
+    }
+    .card{
+        position: relative;
+        top: 1em;
+        width: 60%;
+        margin-left: 3em;
+    }
+    .descrição__titulo{
+        font-size: 25px;
+    }
+    .descrição__texto{
+        font-size: 16px;
     }
 }
